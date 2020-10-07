@@ -24,8 +24,9 @@ data = resp.json()
 country = []
 value = []
 
+#loops through 
 for key in data("rates"):
-	print(key)
+	print(key, ":", data["rates"][key])
 
 
 root = tk.Tk()#Creates main window for GUI program
@@ -38,7 +39,7 @@ lab = tk.Label(root, text = "Select Country")#Construction
 
 
 var = tk.StringVar(root)
-var.set("one")
+var.set(country[0])
 option_menu = tk.OptionMenu(root, var, "one", "two")
 option_menu.pack()
 

@@ -15,7 +15,9 @@ Test Code
 for i in range(0, 100, 1):
 	print(IsEven(i))
 
-
+'''
+coding bat solution
+'''
 def missing_char(str, n):
   
   
