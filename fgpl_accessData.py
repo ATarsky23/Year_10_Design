@@ -13,24 +13,24 @@ def exit():
 
 #Windows
 w1 = tk.Frame(root)
-w1.config(bg = "#A65E2E")
+w1.config(bg = "orange")
 
 w2 = tk.Frame()
-w2.config(bg = "#A65E2E")
+w2.config(bg = "orange")
 
 #LOGIN SETUP
 
 
-f1w2 = tk.Frame(w2, highlightbackground = "black", highlightthickness=1)
-f1w2.config(bg = "#A65E2E")
-f2w2 = tk.Frame(w2, highlightbackground = "black", highlightthickness=1)
-f2w2.config(bg = "#A65E2E")
+f1w2 = tk.Frame(w2, highlightbackground = "green", highlightthickness=1)
+f1w2.config(bg = "green")
+f2w2 = tk.Frame(w2, highlightbackground = "green", highlightthickness=1)
+f2w2.config(bg = "green")
 
-uName_label = tk.Label(f1w2,text = "User Name: ", bg = "#A65E2E")
+uName_label = tk.Label(f1w2,text = "User Name: ", bg = "orange")
 uName_entry = tk.Entry(f1w2)
 
 
-pwrd_label = tk.Label(f1w2,text = "Password: ", bg = "#A65E2E")
+pwrd_label = tk.Label(f1w2,text = "Password: ", bg = "orange")
 pwrd_entry = tk.Entry(f1w2)
 
 login_btn = tk.Button(f2w2, text = "Login", width = 20, command = login)
