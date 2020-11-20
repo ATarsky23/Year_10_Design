@@ -4,7 +4,7 @@ from pprint import pprint
 import random
 
 
-resp = requests.get("https://raw.githubusercontent.com/PMiskew/Year_10_Design/master/Extra_Help_PullingFromJSON/data.json")
+resp = requests.get("https://raw.githubusercontent.com/ATarsky23/Year_10_Design/master/Year%2010%20summatives/Unit%20A%20/data.json")
 data = resp.json()
 #pprint(data)
 
@@ -63,7 +63,7 @@ entry.pack()
 
 labelR = tk.Label(root,text = "ENTER AN ANSWER")
 labelR.pack()
-labelS = tk.Label(root,text = "Right =" + str(pdata[2]) + "Wrong =" + str(pdata[3]))
+labelS = tk.Label(root,text = "Right = " + str(pdata[2]) + " Wrong = " + str(pdata[3]))
 
 labelS.pack()
 
