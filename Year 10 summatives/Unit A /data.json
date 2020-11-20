@@ -1,18 +1,18 @@
 [
     {
 
-        "question1": "question 1: What is the area of a rectangle that has a height of 4, and a width of 10?",
-        "answer1": "40"
+        "question": "question 1: What is the area of a rectangle with a height of 4 and a width of 10?",
+        "answer": "answer 1"
     },
     {
 
-        "question2": "question 2",
-        "answer2": "answer 2"
+        "question": "question 2",
+        "answer": "answer 2"
     },
     {
 
-        "question3": "question 3",
-        "answer3": "answer 3"
+        "question": "question 3",
+        "answer": "answer 3"
     }
 
 
