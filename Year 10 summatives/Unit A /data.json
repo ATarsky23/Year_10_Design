@@ -1,17 +1,17 @@
 [
     {
 
-        "question": "question 1: What is the area of a rectangle with a height of 4 and a width of 10?",
-        "answer": "answer 1"
+        "question": "question 1: What is the perimeter of a rectangle with a height of 7 and a width of 14?",
+        "answer": "20"
     },
     {
 
-        "question": "question 2",
-        "answer": "answer 2"
+        "question": "Are the 2 lengths of a sqaure parralel?",
+        "answer": "Yes"
     },
     {
 
-        "question": "question 3",
+        "question": "Calculate the area of a Traingle with a height of 4 and a base of 10",
         "answer": "answer 3"
     }
 
