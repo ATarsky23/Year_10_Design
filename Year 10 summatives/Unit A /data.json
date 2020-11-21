@@ -2,17 +2,17 @@
     {
 
         "question": "question 1: What is the perimeter of a rectangle with a height of 7 and a width of 14?",
-        "answer1": "20"
+        "answer": "20"
     },
     {
 
         "question": "Are the 2 lengths of a sqaure parralel?",
-        "answer2": "Yes"
+        "answer": "Yes"
     },
     {
 
         "question": "Calculate the area of a Traingle with a height of 4 and a base of 10",
-        "answer3": "answer 3"
+        "answer": "answer 3"
     }
 
 
