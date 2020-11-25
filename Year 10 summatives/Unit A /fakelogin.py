@@ -1,7 +1,7 @@
 import tkinter as tk
 
-uNames = ["user1@test.com","user2@test.com","user3@test.com"]
-pWords = ["pword1","pword2","pword3"]
+uNames = ["ATarsky15","user2@test.com","User29"]
+pWords = ["Pword123","EntryWord5","Password10"]
 active = ["",""] #Stores active user 
 
 def checkCred(*arg):
@@ -46,13 +46,13 @@ root = tk.Tk() #Creates your main window
 #Build a login frame
 loginFrame = tk.Frame(root)
 
-labunLF = tk.Label(loginFrame,text = "User Name:")
+labunLF = tk.Label(loginFrame,text = "User Name:", bg = "orange")
 entunLF = tk.Entry(loginFrame, width = 20)
 
-labpwLF = tk.Label(loginFrame,text = "Password")
+labpwLF = tk.Label(loginFrame,text = "Password", bg = "orange")
 entpwLF = tk.Entry(loginFrame, width = 20)
 
-submitLF = tk.Button(loginFrame, text = "Submit", command = checkCred)
+submitLF = tk.Button(loginFrame, text = "Login", command = checkCred)
 
 labunLF.pack()
 entunLF.pack()
