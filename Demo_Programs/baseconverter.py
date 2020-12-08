@@ -8,6 +8,8 @@ resp = requests.get("https://raw.githubusercontent.com/ATarsky23/Year_10_Design/
 data = resp.json()
 #pprint(data)
 
+
+
 #What we woudl do is read in all the questions and then use them to 
 #populate my tkinter
 
@@ -25,6 +27,8 @@ for i in range(0, len(data),1):
 	print(data[i]["question"])
 	questions.append(data[i]["question"])
 	answers.append(data[i]["answer"])
+
+
 
 #Set up your tkineter and when you want to display questions use the 
 #the list questions
@@ -48,22 +52,22 @@ def next(*args):
 		label.config(text = questions[x])
 		pdata[2] = pdata[2] + 1
 	else:
-		labelR.config(text = "WRONG")
+		labelR.config(text = "WRONG", bg = "orange")
 		pdata[3] = pdata[3] + 1
 
-	labelS.config(text = "Right = " + str(pdata[2]) + " Wrong = " + str(pdata[3]))
+	labelS.config(text = "Right = " + str(pdata[2]) + " Wrong = " + str(pdata[3]), bg = "orange")
 
 root = tk.Tk()
 
-label = tk.Label(root,text = questions[0])
+label = tk.Label(root,text = questions[0], bg = "orange")
 label.pack()
 
-entry = tk.Entry(root,width = 50)
+entry = tk.Entry(root,width = 50, highlightbackground = "orange", highlightthickness=15)
 entry.pack()
 
-labelR = tk.Label(root,text = "ENTER AN ANSWER")
+labelR = tk.Label(root, text = "ENTER AN ANSWER", bg = "orange")
 labelR.pack()
-labelS = tk.Label(root,text = "Right = " + str(pdata[2]) + " Wrong = " + str(pdata[3]))
+labelS = tk.Label(root,text = "Right = " + str(pdata[2]) + " Wrong = " + str(pdata[3]), bg = "orange")
 
 labelS.pack()
 
